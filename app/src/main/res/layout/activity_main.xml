@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity">
+
+    <SeekBar
+        android:id="@+id/seekBarTime"
+        android:layout_width="182dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginEnd="22dp"
+        android:max="50"
+        android:paddingRight="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="160dp"
+        android:layout_height="111dp"
+        android:layout_marginTop="8dp"
+        android:textAlignment="center"
+        android:textSize="72sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBarTime" />
+
+    <ImageView
+        android:id="@+id/egg9"
+        android:layout_width="417dp"
+        android:layout_height="510dp"
+        android:layout_marginTop="172dp"
+        android:alpha="0"
+        android:onClick="eggChange"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.759"
+        app:srcCompat="@drawable/m1" />
+
+    <ImageView
+        android:id="@+id/egg8"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e7" />
+
+    <ImageView
+        android:id="@+id/egg7"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e6" />
+
+    <ImageView
+        android:id="@+id/egg6"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e5" />
+
+    <ImageView
+        android:id="@+id/egg5"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e4" />
+
+    <ImageView
+        android:id="@+id/egg4"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e3" />
+
+    <ImageView
+        android:id="@+id/egg3"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e2" />
+
+    <ImageView
+        android:id="@+id/eggra"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/er" />
+
+    <ImageView
+        android:id="@+id/eggla"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/el" />
+
+    <ImageView
+        android:id="@+id/eggr"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/er" />
+
+    <ImageView
+        android:id="@+id/eggl"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/el" />
+
+    <ImageView
+        android:id="@+id/egg2"
+        android:layout_width="428dp"
+        android:layout_height="480dp"
+        android:layout_marginTop="172dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="1"
+        android:onClick="eggChange"
+        android:scaleType="fitEnd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/e1" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="401dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="CLICK THE EGG TO START COUNTDOWN"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
